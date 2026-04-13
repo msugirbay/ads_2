@@ -21,14 +21,14 @@ public class Main {
     public static void main(String[] args) {
         LinkedList<BankAccount> accounts = new LinkedList<>();
 
-        // Add new accounts
+       
         accounts.add(new BankAccount("001", "Ali", 150000));
         accounts.add(new BankAccount("002", "Sara", 220000));
 
         System.out.println("Account added successfully");
         System.out.println();
 
-        // Display all accounts
+        
         System.out.println("Accounts List:");
         for (int i = 0; i < accounts.size(); i++) {
             System.out.println((i + 1) + ". " + accounts.get(i));
@@ -36,7 +36,6 @@ public class Main {
 
         System.out.println();
 
-        // Search account by username
         String searchName = "Ali";
         boolean found = false;
 
